@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+
+        <title>CoffeeTime</title>
+
+        <link rel="stylesheet" href="stylesheets/style.css">
+        <link rel="icon" type="image/png" href="cup1.png">
+
+
+        <script src="javascripts/jquery.min.js"></script>
+        <script src="javascripts/animatedModal.min.js"></script>
+        <script src="javascripts/click.js"></script>
+
+  </head>
+    <body>
+
+<!-- <svg class="loading" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="574.558px" height="120px" viewBox="0 0 574.558 120" enable-background="new 0 0 574.558 120" xml:space="preserve">
+  <defs>
+    <pattern id="water" width=".25" height="1.1" patternContentUnits="objectBoundingBox">
+      <path fill="#fff" d="M0.25,1H0c0,0,0-0.659,0-0.916c0.083-0.303,0.158,0.334,0.25,0C0.25,0.327,0.25,1,0.25,1z"/>
+    </pattern>
+
+    <text id="text" transform="matrix(1 0 0 1 -8.0684 116.7852)" font-family="'Comfortaa'" font-size="161.047">LOADING</text>
+
+    <mask id="text_mask">
+      <use x="0" y="0" xlink:href="#text" opacity="1" fill="#ffffff"/>
+    </mask>
+  </defs> -->
+
+	  <!--<use x="0" y="0" xlink:href="#text" fill="#222"/>-->
+
+  <!-- <rect class="water-fill" mask="url(#text_mask)" fill="url(#water)" x="-400" y="0" width="1600" height="120"/>
+
+</svg> -->
+
+
+
+        <section class="mainsection">
+          <div class="row">
+            <a id="espresso" href="#animatedModal">Эспрессо</a>
+            <a id="macchiato" href="#animatedModal1">Макиато</a>
+            <a id="cappuchino" href="#animatedModal2">Капучино</a>
+          </div>
+
+          <div class="row">
+            <a id="americano" href="#animatedModal3">Американо</a>
+            <a id="mocha" href="#animatedModal4">Мокко</a>
+            <a id="latte" href="#animatedModal5">Латте</a>
+          </div>
+
+          <div class="row">
+            <a id="espresso" href="#animatedModal">Espresso</a>
+            <a id="espresso" href="#animatedModal">Espresso</a>
+            <a id="espresso" href="#animatedModal">Espresso</a>
+          </div>
+        </section>
+
+        <div id="animatedModal">
+          <div  id="btn-close" class="close-animatedModal">
+              CLOSE
+          </div>
+
+          <section class="modal-content">
+            <div class="sectionholder">
+              <div class="textleft">
+                <h3>Про напиток</h3>
+
+                <p>Эспрессо — метод приготовления, при котором горячая вода
+                под давлением пропускается через фильтр с молотым кофе.</p>
+                <p>Напиток получил свое название потому что бариста хотели определить разницу между обычным эспрессо и эспрессо с небольшим количеством молока. В Соединенных Штатах слово «макиато» употребляют чаще всего заказывая эспрессо, а не латте.</p>
+              </div>
+
+              <div class="sectionholder1">
+                <div class="container">
+                  <h2>Эспрессо</h2>
+                  <div class="cup">
+                    <figure class="text1"></figure>
+                    <figure class="first"></figure>
+                  </div>
+
+                  <nav>
+                    <div class="button1">Анимация</div>
+                    <div class="button2">Ингредиенты</div>
+                  </nav>
+                </div>
+              </div>
+            </div>
+          </section>
+        </div>
+
+        <div id="animatedModal1">
+          <div  id="btn-close" class="close-animatedModal1">
+              CLOSE
+            </div>
+
+            <section class="modal-content1">
+              <div class="sectionholder">
+                <div class="textleft">
+                  <h3>Про напиток</h3>
+
+                  <p>Макиато — кофейный напиток, состоящий из эспрессо и небольшого количества молочной пены.  Таким образом макиато значит «эспрессо с пятнышком молока».</p>
+                  <p>Напиток пользуется популярностью во всём мире: на юге Европы — в Италии,  Испании и Португалии.</p>
+                  <p>В России слово эспрессо начинает использоваться с начала 1990-х годов и постепенно вытесняет название «маленький двойной».</p>
+
+                </div>
+
+                <div class="sectionholder1">
+                  <div class="container">
+                    <h2>Макиато</h2>
+                    <div class="cup">
+                      <figure class="text2"></figure>
+                      <figure class="text3"></figure>
+                      <figure class="second "></figure>
+                    </div>
+                    <nav>
+                      <div class="button1">Анимация</div>
+                      <div class="button2">Ингредиенты</div>
+                    </nav>
+                  </div>
+                </div>
+              </div>
+            </section>
+          </div>
+
+  <div id="animatedModal2">
+      <!--THIS IS IMPORTANT! to close the modal, the class name has to match the name given on the ID -->
+      <div  id="btn-close" class="close-animatedModal2">
+          CLOSE
+      </div>
+
+
+      <section class="modal-content2">
+      <div class="sectionholder">
+        <div class="textleft">
+          <h3>Про напиток</h3>
+
+          <p>Слово капучино произошло от итальянского cappuccino (в переводе — капуцин). Это кофейный напиток на основе молока, в который часто добавляют сироп и делают сверху красивую молочную пенку. Итальянцы пьют капучино преимущественно за завтраком.</p>
+          <p>Считается, что кофе с молоком придумал пить в 1685 году некий господин Монен из Гренобля. Название напитка предположительно происходит от монашеского ордена капуцинов из-за сходного цвета капучино и одеяния капуцинов — их ряс.</p>
+          <p> Молочная пена на вершине напитка действует как изолятор и помогает сохранить высокую температуру дольше. Правильно приготовленный капучино пьют без сахара, он вкусен за счет естественной сладости молока, которую молоко приобретает в момент разогревания до 60-65°С.</p>
+
+        </div>
+
+        <div class="sectionholder1">
+          <div class="container">
+            <h2>Капучино</h2>
+              <div class="cup1">
+                <figure class="text4"></figure>
+                <figure class="text5"></figure>
+                <figure class="text6"></figure>
+                <figure class="third"></figure>
+              </div>
+                <nav>
+                  <div class="button1">Анимация</div>
+                  <div class="button2">Ингредиенты</div>
+                </nav>
+              </div>
+            </div>
+          </div>
+      </section>
+    </div>
+
+    <div id="animatedModal3">
+        <!--THIS IS IMPORTANT! to close the modal, the class name has to match the name given on the ID -->
+        <div  id="btn-close" class="close-animatedModal3">
+            CLOSE
+        </div>
+
+
+        <section class="modal-content3">
+        <div class="sectionholder">
+          <div class="textleft">
+            <h3>Про напиток</h3>
+
+            <p>Америка́но — способ приготовления кофе, заключающийся в соединении определённого количества горячей воды и эспрессо.</p>
+            <p>Напиток придумали в Италии ещё во время Второй мировой войны для американцев как аналог американского популярного фильтрового напитка «регуляр».</p>
+            <p>Американо готовится из одной или двух порций эспрессо, в который добавляется от 30 до 470 мл горячей воды.</p>
+
+          </div>
+
+          <div class="sectionholder1">
+            <div class="container">
+            <h2>Американо</h2>
+            <div class="cup1">
+
+              <figure class="text7"></figure>
+              <figure class="text8"></figure>
+              <figure class="fourth"></figure>
+            </div>
+
+            <nav>
+              <div class="button1">Анимация</div>
+              <div class="button2">Ингредиенты</div>
+            </nav>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <div id="animatedModal4">
+      <div  id="btn-close" class="close-animatedModal4">
+          CLOSE
+      </div>
+
+      <section class="modal-content4">
+        <div class="sectionholder">
+          <div class="textleft">
+            <h3>Про напиток</h3>
+
+            <p>Моккачино (мокко) — кофейный напиток, созданный в Америке и являющийся разновидностью латте с добавлением шоколада.</p>
+            <p>При приготовлении моккачино может использоваться чёрный, молочный или белый шоколад.</p>
+            <p>Название «моккачино» используется в Европе. В Северной Америке этот напиток известен как «мокко» («мокка»).</p>
+            <p>Моккачино подается в высоких стеклянных бокалах и, как и капучино, украшается вспененным молоком или взбитыми сливками, а также посыпается порошком какао или корицей.</p>
+          </div>
+
+          <div class="sectionholder1">
+            <div class="container">
+              <h2>Мокко</h2>
+              <div class="cup1">
+                <figure class="text9"></figure>
+                <figure class="text10"></figure>
+                <figure class="text11"></figure>
+                <figure class="fifth"></figure>
+              </div>
+
+              <nav>
+                <div class="button1">Анимация</div>
+                <div class="button2">Ингредиенты</div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <div id="animatedModal5">
+      <div  id="btn-close" class="close-animatedModal5">
+          CLOSE
+      </div>
+
+      <section class="modal-content5">
+        <div class="sectionholder">
+          <div class="textleft">
+            <h3>Про напиток</h3>
+
+            <p>Моккачино (мокко) — кофейный напиток, созданный в Америке и являющийся разновидностью латте с добавлением шоколада.</p>
+            <p>При приготовлении моккачино может использоваться чёрный, молочный или белый шоколад.</p>
+            <p>Название «моккачино» используется в Европе. В Северной Америке этот напиток известен как «мокко» («мокка»).</p>
+            <p>Моккачино подается в высоких стеклянных бокалах и, как и капучино, украшается вспененным молоком или взбитыми сливками, а также посыпается порошком какао или корицей.</p>
+          </div>
+
+          <div class="sectionholder1">
+            <div class="container">
+              <h2>Мокко</h2>
+              <div class="cup1">
+                <figure class="text12"></figure>
+                <figure class="text13"></figure>
+                <figure class="text14"></figure>
+                <figure class="six"></figure>
+              </div>
+
+              <nav>
+                <div class="button1">Анимация</div>
+                <div class="button2">Ингредиенты</div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+
+          <script>
+          $("#espresso").animatedModal();
+           $("#cappuchino").animatedModal({
+                modalTarget:'animatedModal2',
+                color:'#141414',
+            });
+            $("#macchiato").animatedModal({
+                 modalTarget:'animatedModal1',
+                 color:'#141414',
+             });
+             $("#americano").animatedModal({
+                  modalTarget:'animatedModal3',
+                  color:'#141414',
+              });
+              $("#mocha").animatedModal({
+                   modalTarget:'animatedModal4',
+                   color:'#141414',
+               });
+               $("#latte").animatedModal({
+                    modalTarget:'animatedModal5',
+                    color:'#141414',
+                });
+
+        </script>
+
+    </body>
+</html>
