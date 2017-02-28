@@ -1,29 +1,26 @@
-/*.first {
-  display: none;
-}*/
-
-
 .first  {
-  width: 248px;
-  height: 271px;
+  width: 243px;
+  height: 274px;
   background-repeat: no-repeat;
-  margin-left: 26px;
-  margin-top: 97px;
+  margin-left: 28px;
+  margin-top: 84px;
   position: absolute;
-   display: none;
+  display: none;
   background-image: url(../images/espressocontain.svg);
-   animation: wipe 3s cubic-bezier(.2,.6,.8,.4) forwards;
+  -webkit-animation: wipe 3s cubic-bezier(.2,.6,.8,.4) forwards;
+  animation: wipe 3s cubic-bezier(.2,.6,.8,.4) forwards;
 
 }
 
 .second  {
-  width: 248px;
-  height: 271px;
+  width: 242px;
+  height: 270px;
   background-repeat: no-repeat;
-  margin-left: 26px;
-  margin-top: 97px;
+  margin-left: 28px;
+  margin-top: 83px;
   position: absolute;
-  background-image: url(../images/macchiato.svg);
+  background-image: url(../images/macchiato1.svg);
+  -webkit-animation: wipe 3s cubic-bezier(.2,.6,.8,.4) forwards;
   animation: wipe 3s cubic-bezier(.2,.6,.8,.4) forwards;
   display: none;
 
@@ -31,26 +28,28 @@
 
 
 .third  {
-  width: 250px;
-  height: 271px;
+  width: 242px;
+  height: 260px;
   background-repeat: no-repeat;
-  margin-left: 25px;
-  margin-top: 112px;
+  margin-left: 28px;
+  margin-top: 84px;
   position: absolute;
   background-image: url(../images/cappuchino.svg);
+  -webkit-animation: wipe 3s cubic-bezier(.2,.6,.8,.4) forwards;
   animation: wipe 3s cubic-bezier(.2,.6,.8,.4) forwards;
   display: none;
 
 }
 
 .fourth {
-  width: 250px;
-  height: 271px;
+  width: 240px;
+  height: 256px;
   background-repeat: no-repeat;
-  margin-left: 25px;
-  margin-top: 112px;
+  margin-left: 29px;
+  margin-top: 86px;
   position: absolute;
   background-image: url(../images/americano.svg);
+  -webkit-animation: wipe 3s cubic-bezier(.2,.6,.8,.4) forwards;
   animation: wipe 3s cubic-bezier(.2,.6,.8,.4) forwards;
   display: none;
 
@@ -58,26 +57,71 @@
 
 
 .fifth {
-  width: 250px;
-  height: 271px;
+  width: 240px;
+  height: 263px;
   background-repeat: no-repeat;
-  margin-left: 25px;
-  margin-top: 112px;
+  margin-left: 29px;
+  margin-top: 86px;
   position: absolute;
   background-image: url(../images/mocha.svg);
+  -webkit-animation: wipe 3s cubic-bezier(.2,.6,.8,.4) forwards;
   animation: wipe 3s cubic-bezier(.2,.6,.8,.4) forwards;
   display: none;
 
 }
 
 .six {
-  width: 250px;
-  height: 271px;
+  width: 240px;
+  height: 263px;
   background-repeat: no-repeat;
-  margin-left: 25px;
-  margin-top: 112px;
+  margin-left: 29px;
+  margin-top: 86px;
   position: absolute;
   background-image: url(../images/latte.svg);
+  -webkit-animation: wipe 3s cubic-bezier(.2,.6,.8,.4) forwards;
+  animation: wipe 3s cubic-bezier(.2,.6,.8,.4) forwards;
+  display: none;
+
+}
+
+.seven {
+  width: 240px;
+  height: 256px;
+  background-repeat: no-repeat;
+  margin-left: 29px;
+  margin-top: 86px;
+  position: absolute;
+  background-image: url(../images/.svg);
+  -webkit-animation: wipe 3s cubic-bezier(.2,.6,.8,.4) forwards;
+  animation: wipe 3s cubic-bezier(.2,.6,.8,.4) forwards;
+  display: none;
+
+}
+
+
+.eight {
+  width: 240px;
+  height: 263px;
+  background-repeat: no-repeat;
+  margin-left: 29px;
+  margin-top: 86px;
+  position: absolute;
+  background-image: url(../images/.svg);
+  -webkit-animation: wipe 3s cubic-bezier(.2,.6,.8,.4) forwards;
+  animation: wipe 3s cubic-bezier(.2,.6,.8,.4) forwards;
+  display: none;
+
+}
+
+.nine {
+  width: 240px;
+  height: 263px;
+  background-repeat: no-repeat;
+  margin-left: 29px;
+  margin-top: 86px;
+  position: absolute;
+  background-image: url(../images/.svg);
+  -webkit-animation: wipe 3s cubic-bezier(.2,.6,.8,.4) forwards;
   animation: wipe 3s cubic-bezier(.2,.6,.8,.4) forwards;
   display: none;
 
@@ -85,9 +129,6 @@
 
 
 
-.text1,
-.text2,
-.text3,
 .text4,
 .text5,
 .text6,
@@ -99,67 +140,69 @@
 .text12,
 .text13,
 .text14 {
-  width: 150px;
-  height: 150px;
   background-repeat: no-repeat;
-  display: none;
   z-index: 1;
 }
 
 
 .text1 {
-  margin-top: 250px;
-  left: 200px;
-  background-image: url(../images/name1.svg);
-  animation: name 15s cubic-bezier(.2,.6,.8,.4) forwards;
+  width: 150px;
+  height: 50px;
+  left: 57px;
+  background-repeat: no-repeat;
+  background-image: url(../images/contain1.svg);
+  /*-webkit-animation: name 15s cubic-bezier(.2,.6,.8,.4) forwards;
+  animation: name 15s cubic-bezier(.2,.6,.8,.4) forwards;*/
 
 
 }
 .text2 {
-  margin-top: 250px;
-  left: 200px;
-  background-image: url(../images/espresso60.svg);
-  animation: name 15s cubic-bezier(.2,.6,.8,.4) forwards;
+  width: 300px;
+  height: 100px;
+  left: 57px;
+  background-repeat: no-repeat;
+  background-image: url(../images/text2.svg);
 
 }
 
 .text3 {
-  margin-top: 120px;
-  left: 230px;
-  background-image: url(../images/foamedmilk.svg);
-  animation: name 15s cubic-bezier(.2,.6,.8,.4) forwards;
-
+  width: 500px;
+  height: 45px;
+  left: 57px;
+  background-image: url(../images/text3.svg);
+  background-repeat: no-repeat;
 }
 
 .text4 {
-  margin-top: 335px;
-  left: 200px;
-  background-image: url(../images/espresso60.svg);
-  animation: name 15s cubic-bezier(.2,.6,.8,.4) forwards;
+  width: 300px;
+  height: 100px;
+  left: 57px;
+  background-repeat: no-repeat;
+  background-image: url(../images/text4.svg);
 
 }
 
 .text5 {
-  margin-top: 245px;
-  left: 200px;
-  background-image: url(../images/steamedmilk60.svg);
-  animation: name 15s cubic-bezier(.2,.6,.8,.4) forwards;
+  width: 500px;
+  height: 100px;
+  left: 57px;
+  background-repeat: no-repeat;
+  background-image: url(../images/text5.svg);
 
 }
 
 .text6 {
-  margin-top: 150px;
-  left: 198px;
-  background-image: url(../images/foamedmilk60.svg);
-  animation: name 15s cubic-bezier(.2,.6,.8,.4) forwards;
-
+  width: 500px;
+  height: 100px;
+  left: 57px;
+  background-repeat: no-repeat;
+  background-image: url(../images/text6.svg);
 }
 
 .text7 {
   margin-top: 335px;
   left: 200px;
   background-image: url(../images/espresso60.svg);
-  animation: name 15s cubic-bezier(.2,.6,.8,.4) forwards;
 
 }
 
@@ -167,7 +210,6 @@
   margin-top: 192px;
   left: 198px;
   background-image: url(../images/americanoname.svg);
-  animation: name 15s cubic-bezier(.2,.6,.8,.4) forwards;
 
 }
 
@@ -175,53 +217,10 @@
   margin-top: 335px;
   left: 207px;
   background-image: url(../images/espresso60.svg);
-  animation: name 15s cubic-bezier(.2,.6,.8,.4) forwards;
 
 }
 
-.text10 {
-  margin-top: 228px;
-  left: 207px;
-  background-image: url(../images/chocolate60.svg);
-  animation: name 15s cubic-bezier(.2,.6,.8,.4) forwards;
-
-}
-
-.text11 {
-  margin-top: 137px;
-  left: 207px;
-  background-image: url(../images/steamedmilk30.svg);
-  animation: name 15s cubic-bezier(.2,.6,.8,.4) forwards;
-
-}
-
-
-
-.text12 {
-  margin-top: 50px;
-  left: 230px;
-  background-image: url(../images/espresso60.svg);
-  animation: name 15s cubic-bezier(.2,.6,.8,.4) forwards;
-
-}
-
-.text13 {
-  margin-top: 50px;
-  left: 230px;
-  background-image: url(../images/steamedmilk300.svg);
-  animation: name 15s cubic-bezier(.2,.6,.8,.4) forwards;
-
-}
-
-.text14 {
-  margin-top: 50px;
-  left: 230px;
-  background-image: url(../images/foamedmilk2.svg);
-  animation: name 15s cubic-bezier(.2,.6,.8,.4) forwards;
-
-}
-
-@keyframes wipe {
+@-webkit-keyframes wipe {
   0% {
     height: 0;
   }
@@ -230,7 +229,7 @@
   }
 }
 
-@keyframes name {
+@keyframes wipe {
   0% {
     height: 0;
   }
