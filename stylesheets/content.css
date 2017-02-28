@@ -60,7 +60,7 @@ h3 {
   margin-top: 50px;
   right: 0;
   bottom: 0;
-  left: 160px;
+  left: 50px;
   background-image: url(../images/espresso.svg);
   background-repeat: no-repeat;
 }
@@ -73,7 +73,7 @@ h3 {
   top: 50px;
   right: 0;
   bottom: 0;
-  left: 160px;
+  left: 50px;
   background-image: url(../images/cup2.svg);
   background-repeat: no-repeat;
 }
@@ -83,21 +83,23 @@ figure {
 }
 
 .container {
+  width: 400px;
+  height: 700px;
   display: flex;
   flex-direction: column;
-
   top: 0;
   bottom: 0;
   left: 0;
   right: 0;
   text-align: center;
-  margin-right: 240px;
+  /*margin-right: 240px;*/
   margin-top: 100px;
+  margin-left: 50px;
 }
 
 .sectionholder {
 
-  width: 100vw;
+  width: 1440px;
 
   display: flex;
   flex-direction: row;
@@ -115,7 +117,7 @@ figure {
 
 .mainsection {
   width: 600px;
-  margin-top: 200px;
+  margin: 200px auto;
 
 
 }
@@ -131,7 +133,8 @@ figure {
 
 .sectionholder1 {
   width: 60vw;
-  height: 100vh;
+  height: 800px;
+  overflow: hidden;
   background-color: #39beb9;
 }
 

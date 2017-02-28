@@ -1,6 +1,8 @@
 /*.first {
   display: none;
 }*/
+
+
 .first  {
   width: 248px;
   height: 271px;
@@ -8,29 +10,12 @@
   margin-left: 26px;
   margin-top: 97px;
   position: absolute;
-
-  background-image: url(../images/espressocontain.svg);
-   animation: wipe 3s cubic-bezier(.2,.6,.8,.4);
    display: none;
+  background-image: url(../images/espressocontain.svg);
+   animation: wipe 3s cubic-bezier(.2,.6,.8,.4) forwards;
 
 }
-@keyframes wipe {
-  0% {
-    height: 0;
-  }
-  100% {
-    height: 100%;
-  }
-}
 
-@keyframes name {
-  0% {
-    height: 0;
-  }
-  100% {
-    height: 100%;
-  }
-}
 .second  {
   width: 248px;
   height: 271px;
@@ -46,11 +31,11 @@
 
 
 .third  {
-  width: 248px;
+  width: 250px;
   height: 271px;
   background-repeat: no-repeat;
-  margin-left: 26px;
-  margin-top: 97px;
+  margin-left: 25px;
+  margin-top: 112px;
   position: absolute;
   background-image: url(../images/cappuchino.svg);
   animation: wipe 3s cubic-bezier(.2,.6,.8,.4) forwards;
@@ -59,11 +44,11 @@
 }
 
 .fourth {
-  width: 248px;
+  width: 250px;
   height: 271px;
   background-repeat: no-repeat;
-  margin-left: 26px;
-  margin-top: 97px;
+  margin-left: 25px;
+  margin-top: 112px;
   position: absolute;
   background-image: url(../images/americano.svg);
   animation: wipe 3s cubic-bezier(.2,.6,.8,.4) forwards;
@@ -73,11 +58,11 @@
 
 
 .fifth {
-  width: 248px;
+  width: 250px;
   height: 271px;
   background-repeat: no-repeat;
-  margin-left: 26px;
-  margin-top: 97px;
+  margin-left: 25px;
+  margin-top: 112px;
   position: absolute;
   background-image: url(../images/mocha.svg);
   animation: wipe 3s cubic-bezier(.2,.6,.8,.4) forwards;
@@ -86,11 +71,11 @@
 }
 
 .six {
-  width: 248px;
+  width: 250px;
   height: 271px;
   background-repeat: no-repeat;
-  margin-left: 26px;
-  margin-top: 97px;
+  margin-left: 25px;
+  margin-top: 112px;
   position: absolute;
   background-image: url(../images/latte.svg);
   animation: wipe 3s cubic-bezier(.2,.6,.8,.4) forwards;
@@ -124,7 +109,7 @@
 
 .text1 {
   margin-top: 250px;
-  left: 230px;
+  left: 200px;
   background-image: url(../images/name1.svg);
   animation: name 15s cubic-bezier(.2,.6,.8,.4) forwards;
 
@@ -132,7 +117,7 @@
 }
 .text2 {
   margin-top: 250px;
-  left: 230px;
+  left: 200px;
   background-image: url(../images/espresso60.svg);
   animation: name 15s cubic-bezier(.2,.6,.8,.4) forwards;
 
@@ -147,64 +132,64 @@
 }
 
 .text4 {
-  margin-top: 120px;
-  left: 230px;
+  margin-top: 335px;
+  left: 200px;
   background-image: url(../images/espresso60.svg);
   animation: name 15s cubic-bezier(.2,.6,.8,.4) forwards;
 
 }
 
 .text5 {
-  margin-top: 120px;
-  left: 230px;
+  margin-top: 245px;
+  left: 200px;
   background-image: url(../images/steamedmilk60.svg);
   animation: name 15s cubic-bezier(.2,.6,.8,.4) forwards;
 
 }
 
 .text6 {
-  margin-top: 50px;
-  left: 230px;
+  margin-top: 150px;
+  left: 198px;
   background-image: url(../images/foamedmilk60.svg);
   animation: name 15s cubic-bezier(.2,.6,.8,.4) forwards;
 
 }
 
 .text7 {
-  margin-top: 50px;
-  left: 230px;
+  margin-top: 335px;
+  left: 200px;
   background-image: url(../images/espresso60.svg);
   animation: name 15s cubic-bezier(.2,.6,.8,.4) forwards;
 
 }
 
 .text8 {
-  margin-top: 50px;
-  left: 230px;
+  margin-top: 192px;
+  left: 198px;
   background-image: url(../images/americanoname.svg);
   animation: name 15s cubic-bezier(.2,.6,.8,.4) forwards;
 
 }
 
 .text9 {
-  margin-top: 50px;
-  left: 230px;
+  margin-top: 335px;
+  left: 207px;
   background-image: url(../images/espresso60.svg);
   animation: name 15s cubic-bezier(.2,.6,.8,.4) forwards;
 
 }
 
 .text10 {
-  margin-top: 50px;
-  left: 230px;
+  margin-top: 228px;
+  left: 207px;
   background-image: url(../images/chocolate60.svg);
   animation: name 15s cubic-bezier(.2,.6,.8,.4) forwards;
 
 }
 
 .text11 {
-  margin-top: 50px;
-  left: 230px;
+  margin-top: 137px;
+  left: 207px;
   background-image: url(../images/steamedmilk30.svg);
   animation: name 15s cubic-bezier(.2,.6,.8,.4) forwards;
 
@@ -234,4 +219,22 @@
   background-image: url(../images/foamedmilk2.svg);
   animation: name 15s cubic-bezier(.2,.6,.8,.4) forwards;
 
+}
+
+@keyframes wipe {
+  0% {
+    height: 0;
+  }
+  100% {
+    height: 100%;
+  }
+}
+
+@keyframes name {
+  0% {
+    height: 0;
+  }
+  100% {
+    height: 100%;
+  }
 }

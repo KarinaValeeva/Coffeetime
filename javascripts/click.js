@@ -9,68 +9,69 @@
   // })
 //
 // $(function() {
-//   $('.cup').click(function () {
+//   $('.modal-content1 .button1').click(function () {
 //     console.log('clicked')
-//     $(this).find('.fill').addClass('active')
+//     $(this).find('.first').fadeIn("Up")
 //   })
 // })
+
 $(function() {
   $(".modal-content .button1").click(function () {
-    $(".cup .first").fadeIn("Up")
+    $(".cup .first").show(".first")
   })
 
   $(".modal-content .button2").click(function () {
-    $(".cup .text1").fadeIn("Up")
+    $(".cup .text1").show(".text1")
   })
 })
 
 $(function() {
   $(".modal-content1 .button1").click(function () {
-    $(".cup .second").fadeIn("Up")
+    $(".cup .second").show(".second")
   })
 
   $(".modal-content1 .button2").click(function () {
-    $(".cup .text2, .text3").fadeIn("Up")
+    $(".cup .text2, .text3").show(".text2, .text3")
   })
 })
 
 $(function() {
   $(".modal-content2 .button1").click(function () {
-    $(".cup1 .third").fadeIn("Up")
+    $(".cup1 .third").show(".third")
   })
 
   $(".modal-content2 .button2").click(function () {
-    $(".cup1 .text4, .text5, .text6").fadeIn("Up")
+    $(".cup1 .text4, .text5, .text6").show(".text4, .text5, .text6")
   })
 })
 
 $(function() {
   $(".modal-content3 .button1").click(function () {
-    $(".cup1 .fourth").fadeIn("Up")
+    $(".cup1 .fourth").show(".fourth")
   })
 
   $(".modal-content3 .button2").click(function () {
-    $(".cup1 .text7, .text8").fadeIn("Up")
+    $(".cup1 .text7, .text8").show(".text7, .text8")
   })
 })
 
 $(function() {
   $(".modal-content4 .button1").click(function () {
-    $(".cup1 .fifth").fadeIn("Up")
+    $(".cup1 .fifth").show(".fifth")
   })
 
   $(".modal-content4 .button2").click(function () {
-    $(".cup1 .text9, .text10, .text11").fadeIn("Up")
+    $(".cup1 .text9, .text10, .text11").show(".text9, .text10, .text11")
   })
 })
 
 $(function() {
   $(".modal-content5 .button1").click(function () {
-    $(".cup1 .six").fadeIn("Up")
+    $(".cup1 .six").show(".six")
   })
 
   $(".modal-content5 .button2").click(function () {
-    $(".cup1 .text12, .text13, .text14").fadeIn("Up")
+    $(".cup1 .text12, .text13, .text14").show(".text12, .text13, .text14")
   })
 })
 
