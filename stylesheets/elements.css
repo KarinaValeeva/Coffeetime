@@ -128,31 +128,12 @@
 }
 
 
-
-.text4,
-.text5,
-.text6,
-.text7,
-.text8,
-.text9,
-.text10,
-.text11,
-.text12,
-.text13,
-.text14 {
-  background-repeat: no-repeat;
-  z-index: 1;
-}
-
-
 .text1 {
   width: 150px;
   height: 50px;
   left: 57px;
   background-repeat: no-repeat;
   background-image: url(../images/contain1.svg);
-  /*-webkit-animation: name 15s cubic-bezier(.2,.6,.8,.4) forwards;
-  animation: name 15s cubic-bezier(.2,.6,.8,.4) forwards;*/
 
 
 }
@@ -169,8 +150,8 @@
   width: 500px;
   height: 45px;
   left: 57px;
-  background-image: url(../images/text3.svg);
   background-repeat: no-repeat;
+  background-image: url(../images/text3.svg);
 }
 
 .text4 {
@@ -202,6 +183,7 @@
 .text7 {
   margin-top: 335px;
   left: 200px;
+  background-repeat: no-repeat;
   background-image: url(../images/espresso60.svg);
 
 }
@@ -209,6 +191,7 @@
 .text8 {
   margin-top: 192px;
   left: 198px;
+  background-repeat: no-repeat;
   background-image: url(../images/americanoname.svg);
 
 }
@@ -216,6 +199,7 @@
 .text9 {
   margin-top: 335px;
   left: 207px;
+  background-repeat: no-repeat;
   background-image: url(../images/espresso60.svg);
 
 }
