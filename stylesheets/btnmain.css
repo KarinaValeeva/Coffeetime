@@ -1,52 +1,15 @@
-/*#espresso, #cappuchino, #macchiato, #mocha, #americano, #latte {
-  display: block;
-  border-style: solid;
-  text-align: center;
-  width: 150px;
-  height: 100px;
-  border: 1px solid #fffcfc;
-  color: #fffcfc;
-  cursor: pointer;
-  background-color: transparent;
-  font-family: 'PT Sans', sans-serif;
-  font-size: 20px;
-  font-weight: 400;
-  text-transform: uppercase;
-}*/
-
 #btn-close  {
     position: absolute;
-    /*text-align: center;*/
-    cursor:pointer;
-    /*color: #141414;
-    border-style: solid;*/
+    cursor: pointer;
     width: 55px;
     height: 55px;
-    /*line-height: 55px;*/
     margin-left: 50px;
     margin-top: 20px;
     right: 50px;
-    /*border-radius: 50px;
-    font-size: 16px;
-    font-family: 'PT Sans', sans-serif;
-    font-weight: bold;*/
-    /*border: 2px solid #141414;*/
     background-color: transparent;
-
     background-image: url(../images/btn.svg);
 }
 
-
-
- /*a {
-  text-align: center;
-  color: #fffcfc;
-  line-height: 100px;
-  font-size: 19px;
-  font-family: 'PT Sans', sans-serif;
-  font-weight: bold;
-  text-decoration: none;
-}*/
 
 .button1, .button2 {
   font-family: 'PT Sans', sans-serif;

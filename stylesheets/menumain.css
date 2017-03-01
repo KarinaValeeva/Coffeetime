@@ -1,8 +1,7 @@
 body {
-  /*background-color: #EEEDEA;*/
-  /*background-color: #141414;*/
-    background-color: #fff;
+  background-color: #fff;
 }
+
 .coffee {
   height: 63px;
   width: 75px;
@@ -85,9 +84,26 @@ body {
   top: -30px;
   left: 15%;
   opacity: 0;
+  -webkit-animation-name: fader;
   animation-name: fader;
+  -webkit-animation-duration: 3s;
   animation-duration: 3s;
+  -webkit-animation-iteration-count: infinite;
   animation-iteration-count: infinite;
+}
+
+@-webkit-keyframes fader {
+  0% {
+    top: -30px;
+    opacity: 0
+  }
+  50% {
+    opacity: 0.2
+  }
+  100% {
+    top: -48px;
+    opacity: 0
+  }
 }
 
 @keyframes fader {
@@ -107,34 +123,37 @@ body {
 .tasse .smoke span:nth-child(2) {
   left: 50%;
   height: 20px;
+  -webkit-animation-duration: 2.9s;
   animation-duration: 2.9s;
+  -webkit-animation-delay: .1s;
   animation-delay: .1s;
 }
 
 .tasse .smoke span:nth-child(3) {
   left: 85%;
   height: 28px;
+  -webkit-animation-duration: 2.8s;
   animation-duration: 2.8s;
+  -webkit-animation-delay: .2s;
   animation-delay: .2s;
 }
 
-/*
-.menu1 {
-  display: flex;
-  flex-direction: column;
-
-
-}*/
 
 #espresso, #cappuchino, #macchiato, #mocha, #americano, #latte, #breve, #raf, #glasse  {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
   flex-direction: column;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
   justify-content: center;
   color: #141414;
   text-align: center;
   width: 250px;
   height: 200px;
-  /*border: 2px solid #141414;*/
   cursor: pointer;
   background-color: #EEEDEA;
   font-family: 'PT Sans', sans-serif;
